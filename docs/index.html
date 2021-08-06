@@ -1,0 +1,59 @@
+<!-- NoobScience -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://kutt.it/ns_favicon" type="image/x-icon">
+    <title>ToPy</title>
+</head>
+<nav>
+    <div class="nav">
+        <li class="nav_item"><a href="https://newtoallofthis123.github.io/topy" class="nav_title" id="demo" target="_blank"></a></li>
+        <li class="nav_item"><a href="https://github.com/newtoallofthis123/topy" class="nav_link" target="_blank">Github</a></li>
+        <li class="nav_item"><a href="https://github.com/newtoallofthis123/topy/releases" class="nav_link" target="_blank">Download</a></li>
+        <li class="nav_item"><a href="mailto:noobscience123@gmail.com" class="nav_link" target="_blank">Contact</a></li>
+    </div>
+</nav>
+<body>
+    <hr>
+    <p class="content">ToPy is a simple cli ToDo Manager. ToPy is a little different from other cli tools that offer similar functionality as most of them use command line arguments but ToPy is interactive and uses a variety of commands. The commands are listed below.</p>
+    <li class="content">new, n: New ToDo</li>
+    <li class="content">show , ls , read : Show all the ToDo's</li>
+    <li class="content">mark: Mark a ToDo complete</li>
+    <li class="content">unmark: Mark a ToDo incomplete</li>
+    <li class="content">clear: Clear the screen and all the ToDo's</li>
+    <li class="content">destory: Delete all the ToDo's</li>
+    <li class="content">del: Delete all the done ToDo's</li>
+    <li class="content">license: Show the license</li>
+    <li class="content">about: About ToPy</li>
+    <li class="content">help: Show is Help</li>
+    <li class="content">commands: Show list of available commands.</li>
+    <li class="content">website: Show ToPy website</li>
+    <li class="content">github: Show the github repository of Topy</li>
+    <li class="content">docs: Show the Topy docs</li>
+    <li class="content">quit: Quit ToPy</li>
+    <hr>
+    <div class="img_div">
+        <img src="assets/topy_example.png" alt="ToPy Example" class="img">
+    </div>
+    <hr>
+    <h1 class="heading">Watch the video below to learn more</h1>
+    <script>
+        var i = 0;
+        var txt = 'ToPy';
+        var speed = 200; 
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+        typeWriter()
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+ToPy
+The Easy to use CLI ToDo written purely in python
+
+ToDo Py is a simple cli written to be simple and efficient but also be usefull at the same time. I have seen many cli todo tools but most of them have a syntax which is well not comfortable sometimes. ToPy uses user prompts to get specified set of user commands and executes them. All of these commands are listes in the commands.txt and can be shown by running the "commands" command.
+ToDo Py is registered under the MIT License (https://newtoallofthis123.github.io/license). Hence you are free to use it as you like.
+Just try to credit me (you don't have to, but try out 'wink').
+For more info about ToPy visit the ToPy Website by following th elink below to use the website command
+https://newtoallofthis123.github.io/topy
+
+Author: NoobScience
+Website: https://newtoallofthis123.github.io/About
+License: MIT License
